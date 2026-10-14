@@ -56,11 +56,11 @@ Official links: [Website](https://herdr.dev/) · [GitHub](https://github.com/ogu
    - [Security guards and collision detectors (4)](#security-guards-and-collision-detectors)
    - [Dotfiles and ready-made configuration (6)](#dotfiles-and-ready-made-configuration)
    - [Plugin collections and developer frameworks (6)](#plugin-collections-and-developer-frameworks)
-6. [Apps, companion integrations, and installation (185)](#6-apps-companion-integrations-and-installation)
+6. [Apps, companion integrations, and installation (186)](#6-apps-companion-integrations-and-installation)
    - [Native desktop and mobile apps (14)](#native-desktop-and-mobile-apps)
    - [Web dashboards and remote viewers (22)](#web-dashboards-and-remote-viewers)
    - [Hardware and ambient displays (22)](#hardware-and-ambient-displays)
-   - [Plugins and supporting utilities (103)](#plugins-and-supporting-utilities)
+   - [Plugins and supporting utilities (104)](#plugins-and-supporting-utilities)
    - [Setup, packages, and version management (24)](#setup-packages-and-version-management)
 7. [Experimental projects (15)](#7-experimental-projects)
    - [Experiments, concepts, and scaffolds (15)](#experiments-concepts-and-scaffolds)
@@ -2374,7 +2374,7 @@ Official links: [Website](https://herdr.dev/) · [GitHub](https://github.com/ogu
 
 ### Plugins and supporting utilities
 
-*103 projects. Small integrations for notifications, status, tasks, scheduling, agent management, and everyday desktop behavior.*
+*104 projects. Small integrations for notifications, status, tasks, scheduling, agent management, and everyday desktop behavior.*
 
 | Project | What it does |
 |---|---|
@@ -2481,6 +2481,7 @@ Official links: [Website](https://herdr.dev/) · [GitHub](https://github.com/ogu
 | [**paddock-sh/paddock-herdr**](https://github.com/paddock-sh/paddock-herdr) | Provides a Herdr integration plugin for the Paddock platform. |
 | [**abcxff/herdr-docker**](https://github.com/abcxff/herdr-docker) | Keeps track of docker builds like you do with agents for herdr. |
 | [**zanellig/keyblink**](https://github.com/zanellig/keyblink) | Provides HyperX Game Mode LED control for Linux and Herdr. |
+| [**AndresDiagoM/herdr-wsl-tab**](https://github.com/AndresDiagoM/herdr-wsl-tab) | Opens a Herdr tab or split that runs a WSL distro on Windows, starting in the focused pane's directory, and passes the `HERDR_*` variables through so Claude Code, Codex, or opencode inside WSL can drive Herdr. Restores those panes after a Herdr restart and installs Claude Code hooks so the session shows its state in Herdr. |
 
 ### Setup, packages, and version management
 
