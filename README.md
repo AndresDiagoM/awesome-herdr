@@ -21,13 +21,13 @@ Official links: [Website](https://herdr.dev/) · [GitHub](https://github.com/ogu
    - [Task queues, backlogs, and event triggers (15)](#task-queues-backlogs-and-event-triggers)
    - [Linear, GitHub Issues, and issue-to-PR automation (25)](#linear-github-issues-and-issue-to-pr-automation)
    - [General workflows and skill packs (138)](#general-workflows-and-skill-packs)
-2. [Connect through MCP and the socket API (237)](#2-connect-through-mcp-and-the-socket-api)
+2. [Connect through MCP and the socket API (238)](#2-connect-through-mcp-and-the-socket-api)
    - [MCP servers (14)](#mcp-servers)
    - [Socket API clients and SDKs (74)](#socket-api-clients-and-sdks)
    - [Chat alerts: Telegram, Discord, and Slack (22)](#chat-alerts-telegram-discord-and-slack)
    - [Desktop, mobile, and webhook notifications (48)](#desktop-mobile-and-webhook-notifications)
    - [Push notifications, APNs, and mobile alerts (2)](#push-notifications-apns-and-mobile-alerts)
-   - [Telemetry, events, and quota streaming (18)](#telemetry-events-and-quota-streaming)
+   - [Telemetry, events, and quota streaming (19)](#telemetry-events-and-quota-streaming)
    - [Voice, hardware, and remote bridges (9)](#voice-hardware-and-remote-bridges)
    - [Protocol and third-party bridges (50)](#protocol-and-third-party-bridges)
 3. [Editor integrations (121)](#3-editor-integrations)
@@ -1215,7 +1215,7 @@ Official links: [Website](https://herdr.dev/) · [GitHub](https://github.com/ogu
 
 ### Telemetry, events, and quota streaming
 
-*18 projects. Event collectors and monitors for agent state, usage, cost, and runtime activity.*
+*19 projects. Event collectors and monitors for agent state, usage, cost, and runtime activity.*
 
 | Project | What it does |
 |---|---|
@@ -1237,6 +1237,7 @@ Official links: [Website](https://herdr.dev/) · [GitHub](https://github.com/ogu
 | [**harshad22491/herdr-agentpanel**](https://github.com/harshad22491/herdr-agentpanel) | Provides Self-healing AI-agent dashboard for Herdr terminal workspaces: every-tab agent catalogue with live quota coloring, auto-layout watcher, plain-English team status board. |
 | [**FunnyQ/herdr-tab-bar-llm-quota**](https://github.com/FunnyQ/herdr-tab-bar-llm-quota) | Shows Claude and Codex quota in the herdr tab bar. |
 | [**susumutomita/annai.term**](https://github.com/susumutomita/annai.term) | Provides Ask about your Ghostty and Herdr keybindings in plain language, answered on-device on your Mac. Swift-native, Apple Foundation Models, no cloud. |
+| [**AndresDiagoM/herdr-route-audit**](https://github.com/AndresDiagoM/herdr-route-audit) | Shows under each agent in the sidebar which OmniRoute combo step actually served it: step 1, or a silent fallback to another model. Reads OmniRoute's call log read-only, pages Telegram once per fallback incident, and includes a report and a self-test. |
 
 ### Voice, hardware, and remote bridges
 
